@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-image: url(img/CEIT.jpg);
+            background-size: cover;
+        }
+        .por{
+            text-align: center;
+            margin-top: 100px;
+            margin-left: 500px;
+            width: 270px;
+            height: 280px;
+            background: rgb(29, 29, 75);
+            color: aliceblue;
+            border-radius: 100%;
+            padding: 15px;
+        }
+        .por input{
+            margin: 10px;
+            border-radius: 15px;
+            padding: 3px;
+        }
+        .por button {
+            border-radius: 15px;
+            background: black;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+   <div class="por">
+    <form action="/CEIT.html">
+     ຊື່ ແລະ ນາມສະກຸນ : <input type="text" placeholder="ຊື່" required> <br>
+    ສາຂາທີຮຽນ : <input type="text" list="mon" required> <br>
+    <datalist id="mon">
+        <option value="CE"></option>
+        <option value="IT"></option>
+    </datalist>
+    ຫ້ອງ : <br><input type="text" list="mlk" required>
+    <datalist id="mlk">
+        <option value="ຫ້ອງ A "></option>
+        <option value="ຫ້ອງ B "></option>
+    </datalist> <br>
+    <button>ເຂົ້າສູ່ຂະບົນ</button>
+   </form>
+   </div>
+</body>
+</html>
